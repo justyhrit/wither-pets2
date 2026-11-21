@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "wither_pets",
+  "version": "${version}",
+  "name": "Wither Pets: Cerberus & Pluto",
+  "description": "Two named Withers, Cerberus and Pluto, that you command through chat commands.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.witherpets.WitherPets"] },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
